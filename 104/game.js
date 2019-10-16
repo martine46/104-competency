@@ -21,7 +21,7 @@ if(opponent.energy == 0){
     document.getElementById(opponent.id).innerHTML="You lost";
     document.getElementById(this.id).innerHTML="You won";
 }
-document.getElementById('console').innerHTML=`${this.name} used ${item.img}`;
+document.getElementById('console').innerHTML=`${this.name} used ${item.iName}  ${item.img}`;
 
 
 
