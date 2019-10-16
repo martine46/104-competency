@@ -1,0 +1,94 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-site{
+    background-image: url(img/pokemon.jpg);
+    background-size: cover;
+    background-position: center;
+    height:40vh;
+    border-bottom: 10px solid black;
+    color: white;
+    font-size: 30px;
+
+}
+
+.header-site .wrap{
+    padding:40px;
+    text-align: center;
+}
+
+h1{
+    background:rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.wrap-main{
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+ 
+}
+
+.square{
+    background-image: url(img/stadiums.jpg);
+    background-size:cover;
+    background-position:center ;
+    height:300px;
+    flex-basis:calc(40% - 1rem);
+    margin:5px;
+    padding:5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    
+
+}
+
+.img-c{
+    width:170px;
+    float:center;
+}
+
+.img-c2{
+    width:240px;
+    float:center;
+   
+}
+
+.item{
+    width:50px;
+}
+
+.move{
+    width:50px;
+}
+
+.console{
+    background:white;
+    border:2px solid black;
+    height:200px;
+    width:400px;
+    border-radius:5px;
+    justify-content: center;
+    margin:auto;
+
+}
+
+
+.btn{
+    background:red;
+    width:100px;
+    font-size:20px;
+    color:white;
+    float:middle;
+   
+}
+
+.btn2{
+    background:red;
+    width:100px;
+    font-size:20px;
+    color:white;
+    float: center ;
+}
+
