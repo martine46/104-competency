@@ -34,8 +34,8 @@ document.getElementById('console').innerHTML=`${this.name} used ${item.iName}  $
     
                 }
 
-const c1 = new Character ("Arcanine",100,20,"c1");
-const c2 = new Character ("Pikachu",100,20,"c2");
+const c1 = new Character ("Arcanine",100,10,"c1");
+const c2 = new Character ("Pikachu",100,10,"c2");
 
 c1.display();
 c2.display();
@@ -62,12 +62,12 @@ class Item{
 
 }  */
 
-const item1=new Item("Flamethrower",20,'<img class="item" src="img/flamethrower.png">');
-const item2=new Item("Fire Spin",20,'<img class="item" src="img/firespin.png">');
-const item3=new Item("Fire Blast",20,'<img class="item" src="img/fireblast.jpg">');
-const item4=new Item("Quick Attack",20,'<img class="move" src="img/quickattack.png">');
-const item5=new Item("Thunderbolt",20,'<img class="move" src="img/thunderbolt.jpg">');
-const item6=new Item("Zap Cannon",20,'<img class="move" src="img/zapcannon.png">');
+const item1=new Item("Flamethrower",10,'<img class="item" src="img/flamethrower.png">');
+const item2=new Item("Fire Spin",10,'<img class="item" src="img/firespin.png">');
+const item3=new Item("Fire Blast",10,'<img class="item" src="img/fireblast.jpg">');
+const item4=new Item("Quick Attack",10,'<img class="move" src="img/quickattack.png">');
+const item5=new Item("Thunderbolt",10,'<img class="move" src="img/thunderbolt.jpg">');
+const item6=new Item("Zap Cannon",10,'<img class="move" src="img/zapcannon.png">');
 
 const pikachuMoves=[item4,item5,item6];
 const arcanineMoves=[item1,item2,item3];
